@@ -6,6 +6,9 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public Ship player;
+    public GameObject bullet;
+
+    private List<GameObject> bullets = new List<GameObject>();
 
     void Start()
     {
@@ -17,6 +20,15 @@ public class GameController : MonoBehaviour
         moveShip();
         directShip();
         shoot();
+        moveBullets();
+    }
+
+    private void moveBullets()
+    {
+        for (int i = 0; i < bullets.Count; i++)
+        {
+            bullets[i].GetComponent<BulletController>().shootBullet();
+        }
     }
 
     private void directShip()
@@ -35,7 +47,9 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
+            GameObject newBullet = Instantiate(bullet, bullet.transform.position, Quaternion.identity);
+            newBullet.transform.up = player.transform.up;
+            bullets.Add(newBullet);
         }
     }
 
