@@ -5,17 +5,30 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Ship player;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         moveShip();
+        directShip();
         shoot();
+    }
+
+    private void directShip()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            player.directShip(1);
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            player.directShip(-1);
+        }
     }
 
     void shoot()
@@ -28,21 +41,9 @@ public class GameController : MonoBehaviour
 
     void moveShip()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-
-        }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-
-        }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-
-        }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-
+            player.moveShip();
         }
     }
 }

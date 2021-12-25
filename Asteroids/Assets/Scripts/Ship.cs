@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Ship : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float acceleration;
+    public float maxSpeed;
+    public float rotationSpeed;
+    public Rigidbody2D rigidBody;
+    public CapsuleCollider2D capsuleCollider;
+    
+    public void directShip(int direction)
     {
-        
+        rigidBody.AddTorque(rotationSpeed * direction);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void moveShip()
     {
-        
+        Vector2 addedVelocity = transform.up * acceleration * Time.deltaTime;
+
+        rigidBody.velocity += addedVelocity;
+
+        rigidBody.velocity = new Vector2(Mathf.Min(maxSpeed, rigidBody.velocity.x), Mathf.Min(maxSpeed, rigidBody.velocity.y));
+        rigidBody.velocity = new Vector2(Mathf.Max(-maxSpeed, rigidBody.velocity.x), Mathf.Max(-maxSpeed, rigidBody.velocity.y));
     }
 }
