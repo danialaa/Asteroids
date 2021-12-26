@@ -37,6 +37,7 @@ public class GameController : MonoBehaviour
     public GameObject generateAsteroid()
     {
         GameObject newAsteroid = Instantiate(asteroidObject, asteroidObject.transform.position, Quaternion.identity);
+        newAsteroid.GetComponent<AsteroidController>().createRandomAsteroid();
 
         return newAsteroid;
     }
@@ -57,7 +58,7 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject newBullet = Instantiate(bulletObject, player.transform.position, Quaternion.identity);
+            GameObject newBullet = Instantiate(bulletObject, player.transform.position, player.transform.rotation);
             newBullet.transform.up = player.transform.up;
         }
     }

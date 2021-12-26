@@ -16,17 +16,19 @@ public class AsteroidController : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
-        createRandomAsteroid();
+        
         Destroy(gameObject, GameController.instance.lifetime);
     }
 
-    private void createRandomAsteroid()
+    public void createRandomAsteroid()
     {
         assignSize(Random.Range(1, 4));
 
         float screenHeight = Camera.main.orthographicSize * 2, screenWidth = screenHeight * Camera.main.aspect;
         Vector2 randomPosition = Random.insideUnitCircle.normalized;
         transform.position = new Vector3(randomPosition.x * screenWidth, randomPosition.y * screenHeight, 1);
+
+        transform.eulerAngles = new Vector3(0, 0, Random.Range(0, 360));
         
         setDirection();
         rigidBody.AddForce(direction * speed);
@@ -59,10 +61,9 @@ public class AsteroidController : MonoBehaviour
         direction = new Vector2((float)directionX, (float)directionY).normalized;
     }
 
-    public void updateAsteroid(int type, Vector2 position, Vector2 direction)
+    public void updateAsteroid(int type, Vector2 direction)
     {
         assignSize(type);
-        transform.position = position;
         this.direction = direction;
         rigidBody.AddForce(direction * speed);
     }
@@ -76,14 +77,22 @@ public class AsteroidController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if ((int)type > 1)
+        if (collision.gameObject.tag != "Asteroid")
         {
-            GameObject newAsteroid = GameController.instance.generateAsteroid();
-            newAsteroid.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, transform.position, direction);
-            GameObject newAsteroid2 = GameController.instance.generateAsteroid();
-            newAsteroid2.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, transform.position, direction);
-        }
+            if ((int)type > 1)
+            {
+                splitAsteroid(collision.transform.up);
+                splitAsteroid(collision.transform.up);
+            }
 
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
+    }
+
+    private void splitAsteroid(Vector2 rotation)
+    {
+        GameObject asteroid = Instantiate(gameObject, transform.position, transform.rotation);
+        asteroid.GetComponent<AsteroidController>().updateAsteroid((int)(type - 1),
+            new Vector2(Random.Range(rotation.x - 10, rotation.x + 10), Random.Range(rotation.y - 10, rotation.y + 10)).normalized);
     }
 }

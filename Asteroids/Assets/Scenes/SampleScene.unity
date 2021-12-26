@@ -377,8 +377,8 @@ MonoBehaviour:
   player: {fileID: 656417386}
   bulletObject: {fileID: 7868064293468396225, guid: b1f69cd353b9eb246b71150220eb28bc, type: 3}
   asteroidObject: {fileID: 1095486863657832207, guid: ce13e844e7877dd49877c40ac3e073fb, type: 3}
-  asteroidSpawnRate: 2
-  lifetime: 50
+  asteroidSpawnRate: 1
+  lifetime: 40
 --- !u!4 &2133641425
 Transform:
   m_ObjectHideFlags: 0
