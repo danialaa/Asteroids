@@ -18,6 +18,12 @@ public class BulletController : MonoBehaviour
         rigidBody.AddForce(transform.up * speed);
     }
 
+    private void OnBecameInvisible()
+    {
+        enabled = false;
+        Destroy(gameObject);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Asteroid")

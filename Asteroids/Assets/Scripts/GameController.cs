@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     public int asteroidSpawnRate;
     public int lifetime;
     public int maxLives;
+    public AudioSource shootSound, dieSound;
 
     private int score;
     private int lives;
@@ -68,6 +69,8 @@ public class GameController : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bulletObject, player.transform.position, player.transform.rotation);
             newBullet.transform.up = player.transform.up;
+
+            shootSound.PlayOneShot(shootSound.clip);
         }
     }
 
@@ -83,6 +86,7 @@ public class GameController : MonoBehaviour
     {
         lives--;
         livesObject.GetComponent<Text>().text = lives + "";
+        dieSound.PlayOneShot(dieSound.clip);
 
         if (lives < 0)
         {
