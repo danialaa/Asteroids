@@ -24,4 +24,9 @@ public class Ship : MonoBehaviour
         rigidBody.velocity = new Vector2(Mathf.Min(maxSpeed, rigidBody.velocity.x), Mathf.Min(maxSpeed, rigidBody.velocity.y));
         rigidBody.velocity = new Vector2(Mathf.Max(-maxSpeed, rigidBody.velocity.x), Mathf.Max(-maxSpeed, rigidBody.velocity.y));
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
 }

@@ -11,11 +11,11 @@ public class BulletController : MonoBehaviour
     {
         Vector2 newPosition = transform.up * speed * Time.deltaTime;
 
-        transform.position += new Vector3(newPosition.x, newPosition.y, transform.position.z);
+        transform.position += new Vector3(newPosition.x, newPosition.y, 0);
+    }
 
-        if (capsuleCollider.isTrigger)
-        {
-            gameObject.SetActive(false);
-        }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //gameObject.SetActive(false);
     }
 }

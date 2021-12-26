@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,14 +6,27 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    public static GameController instance;
     public Ship player;
-    public GameObject bullet;
-
+    public GameObject bulletObject;
+    public GameObject asteroidObject;
+    public int asteroidSpawnRate;
+    
+    private List<GameObject> asteroids = new List<GameObject>();
     private List<GameObject> bullets = new List<GameObject>();
 
     void Start()
     {
-        
+        if (instance != null)
+        {
+            Destroy(instance);
+        }
+        else
+        {
+            instance = this;
+        }
+
+        InvokeRepeating("generateAsteroid", 2f, asteroidSpawnRate);
     }
 
     void Update()
@@ -21,6 +35,14 @@ public class GameController : MonoBehaviour
         directShip();
         shoot();
         moveBullets();
+    }
+
+    public GameObject generateAsteroid()
+    {
+        GameObject newAsteroid = Instantiate(asteroidObject, asteroidObject.transform.position, Quaternion.identity);
+        asteroids.Add(newAsteroid);
+
+        return newAsteroid;
     }
 
     private void moveBullets()
@@ -43,21 +65,26 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void shoot()
+    private void shoot()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject newBullet = Instantiate(bullet, bullet.transform.position, Quaternion.identity);
+            GameObject newBullet = Instantiate(bulletObject, player.transform.position, Quaternion.identity);
             newBullet.transform.up = player.transform.up;
             bullets.Add(newBullet);
         }
     }
 
-    void moveShip()
+    private void moveShip()
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
             player.moveShip();
         }
+    }
+
+    public void removeAsteroid(GameObject asteroid)
+    {
+        asteroids.Remove(asteroid);
     }
 }
