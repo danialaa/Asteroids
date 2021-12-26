@@ -747,9 +747,9 @@ MonoBehaviour:
   maxSpeed: 7
   rotationSpeed: 0.1
   rigidBody: {fileID: 656417385}
-  capsuleCollider: {fileID: 656417387}
---- !u!70 &656417387
-CapsuleCollider2D:
+  polygonCollider: {fileID: 656417387}
+--- !u!60 &656417387
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -761,9 +761,38 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000000016111281, y: -0.013515124}
-  m_Size: {x: 1.1200005, y: 0.7838089}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.75}
+    newSize: {x: 1.12, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48, y: -0.275}
+      - {x: 0.56, y: -0.095}
+      - {x: 0.56, y: -0.015}
+      - {x: 0.5, y: 0.015}
+      - {x: 0.38, y: 0.055}
+      - {x: 0.12, y: 0.225}
+      - {x: 0.099999994, y: 0.355}
+      - {x: 0.06, y: 0.375}
+      - {x: -0.089999996, y: 0.375}
+      - {x: -0.19999999, y: 0.145}
+      - {x: -0.56, y: -0.015}
+      - {x: -0.56, y: -0.13499999}
+      - {x: -0.53999996, y: -0.185}
+      - {x: -0.39999998, y: -0.375}
+      - {x: -0.19999999, y: -0.345}
+      - {x: -0.14999999, y: -0.375}
+      - {x: 0.14, y: -0.375}
+      - {x: 0.19, y: -0.325}
+      - {x: 0.32, y: -0.355}
+      - {x: 0.39, y: -0.36499998}
 --- !u!1 &2096425182
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,8 +895,7 @@ MonoBehaviour:
   livesObject: {fileID: 544378600}
   asteroidSpawnRate: 1
   lifetime: 40
-  maxLives: 0
-  score: 0
+  maxLives: 3
 --- !u!4 &2133641425
 Transform:
   m_ObjectHideFlags: 0

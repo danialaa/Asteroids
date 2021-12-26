@@ -8,7 +8,7 @@ public class Ship : MonoBehaviour
     public float maxSpeed;
     public float rotationSpeed;
     public Rigidbody2D rigidBody;
-    public CapsuleCollider2D capsuleCollider;
+    public PolygonCollider2D polygonCollider;
 
     private bool isFixingX = false, isFixingY = false;
 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5513464986945792857}
   - component: {fileID: 5199335683713783804}
   - component: {fileID: -7728641110955635675}
-  - component: {fileID: -3256410234977186511}
+  - component: {fileID: 7921880356103397668}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 120
+  type: 0
 --- !u!50 &-7728641110955635675
 Rigidbody2D:
   serializedVersion: 4
@@ -119,8 +120,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &-3256410234977186511
-BoxCollider2D:
+--- !u!60 &7921880356103397668
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,6 +143,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.89, y: 0.82}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.285, y: 0.31}
+      - {x: 0.024999999, y: 0.39}
+      - {x: -0.024999999, y: 0.41}
+      - {x: -0.175, y: 0.41}
+      - {x: -0.445, y: 0.22}
+      - {x: -0.445, y: -0.16}
+      - {x: -0.33499998, y: -0.31}
+      - {x: -0.285, y: -0.37}
+      - {x: 0.015, y: -0.41}
+      - {x: 0.255, y: -0.41}
+      - {x: 0.445, y: -0.07}
+      - {x: 0.445, y: 0.049999997}
+      - {x: 0.315, y: 0.29}

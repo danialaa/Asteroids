@@ -8,14 +8,14 @@ public class AsteroidController : MonoBehaviour
     public int speed;
     public AsteroidType type;
 
-    private BoxCollider2D boxCollider;
+    private PolygonCollider2D polygonCollider;
     private Rigidbody2D rigidBody;
     private Vector2 direction;
 
     private void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        polygonCollider = GetComponent<PolygonCollider2D>();
         
         Destroy(gameObject, GameController.instance.lifetime);
     }

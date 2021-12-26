@@ -13,7 +13,7 @@ public class BulletController : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D>();
         Destroy(gameObject, GameController.instance.lifetime);
-        Physics2D.IgnoreCollision(GameController.instance.player.capsuleCollider, capsuleCollider);
+        Physics2D.IgnoreCollision(GameController.instance.player.polygonCollider, capsuleCollider);
 
         rigidBody.AddForce(transform.up * speed);
     }
