@@ -13,9 +13,1179 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-12-25T21:07:49.371+02:00
-  initializedAtString: 2021-12-25T21:03:26.150+02:00
+  lastUpdatedAtString: 2021-12-26T04:46:52.062+02:00
+  initializedAtString: 2021-12-26T04:46:51.455+02:00
   log:
+  - commitID: 725b40214ba64fe802683cb4391db39d771aa082
+    mergeA: 
+    mergeB: 
+    authorName: Dania Alaaeldin
+    authorEmail: d.a.mahdaly@outlook.com
+    commitEmail: d.a.mahdaly@outlook.com
+    commitName: Dania Alaaeldin
+    summary: Asteroid mechanics and bullet fixes
+    description: 
+    timeString: 2021-12-26T04:46:42.000+02:00
+    commitTimeString: 2021-12-26T04:46:42.000+02:00
+    changes:
+    - path: Asteroids\Assets\Prefabs\Asteroid.prefab
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs\Asteroid.prefab
+      projectPath: Assets\Prefabs\Asteroid.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Prefabs\Asteroid.prefab.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs\Asteroid.prefab.meta
+      projectPath: Assets\Prefabs\Asteroid.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Prefabs\Bullet.prefab
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\Asteroid.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\Asteroid.cs
+      projectPath: Assets\Scripts\Asteroid.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\AsteroidController.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\AsteroidController.cs
+      projectPath: Assets\Scripts\AsteroidController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\AsteroidController.cs.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\AsteroidController.cs.meta
+      projectPath: Assets\Scripts\AsteroidController.cs.meta
+      originalPath: Asteroids\Assets\Scripts\Asteroid.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\AsteroidType.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\AsteroidType.cs
+      projectPath: Assets\Scripts\AsteroidType.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\AsteroidType.cs.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\AsteroidType.cs.meta
+      projectPath: Assets\Scripts\AsteroidType.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\BulletController.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\BulletController.cs
+      projectPath: Assets\Scripts\BulletController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\GameController.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\GameController.cs
+      projectPath: Assets\Scripts\GameController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\Ship.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\Ship.cs
+      projectPath: Assets\Scripts\Ship.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a6b3af311cc7c8078ea5e43d3427570650f060d1
+    mergeA: 
+    mergeB: 
+    authorName: Dania Alaaeldin
+    authorEmail: d.a.mahdaly@outlook.com
+    commitEmail: d.a.mahdaly@outlook.com
+    commitName: Dania Alaaeldin
+    summary: File updates
+    description: 
+    timeString: 2021-12-26T00:48:40.000+02:00
+    commitTimeString: 2021-12-26T00:48:40.000+02:00
+    changes:
+    - path: Asteroids\Library\ArtifactDB
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\02\020e52a1c63bb137cccb85241fe5eb1a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\02\020e52a1c63bb137cccb85241fe5eb1a
+      projectPath: Library\Artifacts\02\020e52a1c63bb137cccb85241fe5eb1a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\06\0644afd1376b79b257fc4ed43f504b9f
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\06\0644afd1376b79b257fc4ed43f504b9f
+      projectPath: Library\Artifacts\06\0644afd1376b79b257fc4ed43f504b9f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\06\06cb088855794349555502ebfebf164a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\06\06cb088855794349555502ebfebf164a
+      projectPath: Library\Artifacts\06\06cb088855794349555502ebfebf164a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\08\0817438f8b3d456fa8f1e27992b36b26
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\08\0817438f8b3d456fa8f1e27992b36b26
+      projectPath: Library\Artifacts\08\0817438f8b3d456fa8f1e27992b36b26
+      originalPath: Asteroids\Library\Artifacts\cd\cd70efd02ceb2ce69011495cb90ef92f
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\09\095a35ed9fbedb9bcfdc6292c7d11097
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\09\095a35ed9fbedb9bcfdc6292c7d11097
+      projectPath: Library\Artifacts\09\095a35ed9fbedb9bcfdc6292c7d11097
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0a\0ac5df92f5f919c8dc347cf7f7e4a576
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0a\0ac5df92f5f919c8dc347cf7f7e4a576
+      projectPath: Library\Artifacts\0a\0ac5df92f5f919c8dc347cf7f7e4a576
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0b\0b9d7292298a8ac3b0cd99e7c5fab3f1
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0b\0b9d7292298a8ac3b0cd99e7c5fab3f1
+      projectPath: Library\Artifacts\0b\0b9d7292298a8ac3b0cd99e7c5fab3f1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0c\0c5238c79f42551f85743de4ab4b95dd
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0c\0c5238c79f42551f85743de4ab4b95dd
+      projectPath: Library\Artifacts\0c\0c5238c79f42551f85743de4ab4b95dd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0d\0d8f41d604fb6421966fcc5236fdcf6d
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0d\0d8f41d604fb6421966fcc5236fdcf6d
+      projectPath: Library\Artifacts\0d\0d8f41d604fb6421966fcc5236fdcf6d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0f\0f334af7f0444bf5bd285e5363a440b3
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0f\0f334af7f0444bf5bd285e5363a440b3
+      projectPath: Library\Artifacts\0f\0f334af7f0444bf5bd285e5363a440b3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\0f\0f891b6cdb56a44ed301298faea48b69
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\0f\0f891b6cdb56a44ed301298faea48b69
+      projectPath: Library\Artifacts\0f\0f891b6cdb56a44ed301298faea48b69
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\12\1258b0b637bcd415b2dc755d7d8878b6
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\12\1258b0b637bcd415b2dc755d7d8878b6
+      projectPath: Library\Artifacts\12\1258b0b637bcd415b2dc755d7d8878b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\14\14629708fd0798d81d048a79605cd147
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\14\14629708fd0798d81d048a79605cd147
+      projectPath: Library\Artifacts\14\14629708fd0798d81d048a79605cd147
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\15\1532c7e7b79134b9a09fb8c4d4b24531
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\15\1532c7e7b79134b9a09fb8c4d4b24531
+      projectPath: Library\Artifacts\15\1532c7e7b79134b9a09fb8c4d4b24531
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\16\160eeec7bb8a807a3b61d1b71fe1e1ac
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\16\160eeec7bb8a807a3b61d1b71fe1e1ac
+      projectPath: Library\Artifacts\16\160eeec7bb8a807a3b61d1b71fe1e1ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\17\17f5be2d5cce0fa716fb3e052a5c6079
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\17\17f5be2d5cce0fa716fb3e052a5c6079
+      projectPath: Library\Artifacts\17\17f5be2d5cce0fa716fb3e052a5c6079
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\19\199d87882c4e74fdf7480be5d007d057
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\19\199d87882c4e74fdf7480be5d007d057
+      projectPath: Library\Artifacts\19\199d87882c4e74fdf7480be5d007d057
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\1a\1a2992a0c9f6a91c8200add5737b4d5b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\1a\1a2992a0c9f6a91c8200add5737b4d5b
+      projectPath: Library\Artifacts\1a\1a2992a0c9f6a91c8200add5737b4d5b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\1c\1c729f7faa873d34c0c4e377e44fd526
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\1c\1c729f7faa873d34c0c4e377e44fd526
+      projectPath: Library\Artifacts\1c\1c729f7faa873d34c0c4e377e44fd526
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\1f\1f11efb0c3b044a530a2b498d3f112ad
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\1f\1f11efb0c3b044a530a2b498d3f112ad
+      projectPath: Library\Artifacts\1f\1f11efb0c3b044a530a2b498d3f112ad
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\23\237cde67bcea35263582c9a65dafcf71
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\23\237cde67bcea35263582c9a65dafcf71
+      projectPath: Library\Artifacts\23\237cde67bcea35263582c9a65dafcf71
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\23\23b0cced218350a8853d6210e22025e8
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\23\23b0cced218350a8853d6210e22025e8
+      projectPath: Library\Artifacts\23\23b0cced218350a8853d6210e22025e8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\23\23f8fff85cbc8f1f05593da890297d15
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\23\23f8fff85cbc8f1f05593da890297d15
+      projectPath: Library\Artifacts\23\23f8fff85cbc8f1f05593da890297d15
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\25\250422918d4a5314440067a682cd0da1
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\25\250422918d4a5314440067a682cd0da1
+      projectPath: Library\Artifacts\25\250422918d4a5314440067a682cd0da1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\2a\2a7a9de439d30e8b27322625ec545bd5
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\2a\2a7a9de439d30e8b27322625ec545bd5
+      projectPath: Library\Artifacts\2a\2a7a9de439d30e8b27322625ec545bd5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\2b\2bec63f40476b03668771d07fcef728c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\2b\2bec63f40476b03668771d07fcef728c
+      projectPath: Library\Artifacts\2b\2bec63f40476b03668771d07fcef728c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\2d\2dd6be2aeae1192de52b680a59951f67
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\2d\2dd6be2aeae1192de52b680a59951f67
+      projectPath: Library\Artifacts\2d\2dd6be2aeae1192de52b680a59951f67
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\30\30df1cb70f5cf5cf1a7277f8c24165b1
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\30\30df1cb70f5cf5cf1a7277f8c24165b1
+      projectPath: Library\Artifacts\30\30df1cb70f5cf5cf1a7277f8c24165b1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\34\341f82087aca0f2a0516cf1be6584cff
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\34\341f82087aca0f2a0516cf1be6584cff
+      projectPath: Library\Artifacts\34\341f82087aca0f2a0516cf1be6584cff
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\36\36bf88deb2374f2b8f6b900fa99482f5
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\36\36bf88deb2374f2b8f6b900fa99482f5
+      projectPath: Library\Artifacts\36\36bf88deb2374f2b8f6b900fa99482f5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\37\374a70b6133e988e674f115d2626e4fe
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\37\374a70b6133e988e674f115d2626e4fe
+      projectPath: Library\Artifacts\37\374a70b6133e988e674f115d2626e4fe
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\38\3813cd70ddcf87eb44417d131088ea45
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\38\3813cd70ddcf87eb44417d131088ea45
+      projectPath: Library\Artifacts\38\3813cd70ddcf87eb44417d131088ea45
+      originalPath: Asteroids\Library\Artifacts\70\7033310d6c3173c559e6b92baa30d06d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\38\382730ff871e8204870d15bac1e67d28
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\38\382730ff871e8204870d15bac1e67d28
+      projectPath: Library\Artifacts\38\382730ff871e8204870d15bac1e67d28
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\38\38f6ed7c208a8037bbc93544caa766b0
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\38\38f6ed7c208a8037bbc93544caa766b0
+      projectPath: Library\Artifacts\38\38f6ed7c208a8037bbc93544caa766b0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\39\39f4a11b6b595cb9a55f727543e6fb93
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\39\39f4a11b6b595cb9a55f727543e6fb93
+      projectPath: Library\Artifacts\39\39f4a11b6b595cb9a55f727543e6fb93
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\3b\3bbe0692827e0ebe0415e73cfcfa0ab4
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\3b\3bbe0692827e0ebe0415e73cfcfa0ab4
+      projectPath: Library\Artifacts\3b\3bbe0692827e0ebe0415e73cfcfa0ab4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\3c\3ccdc8cf4188204163e9375f46eccfe0
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\3c\3ccdc8cf4188204163e9375f46eccfe0
+      projectPath: Library\Artifacts\3c\3ccdc8cf4188204163e9375f46eccfe0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\3e\3e13399ee81dabe5402c4837d20d919e
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\3e\3e13399ee81dabe5402c4837d20d919e
+      projectPath: Library\Artifacts\3e\3e13399ee81dabe5402c4837d20d919e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\40\4095d72103950082a1d17050457cc24f
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\40\4095d72103950082a1d17050457cc24f
+      projectPath: Library\Artifacts\40\4095d72103950082a1d17050457cc24f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\41\4136997673e4e1d41f22aa1fb82634a5
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\41\4136997673e4e1d41f22aa1fb82634a5
+      projectPath: Library\Artifacts\41\4136997673e4e1d41f22aa1fb82634a5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\42\4285d99b8419fb8d585e09b345b24f4c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\42\4285d99b8419fb8d585e09b345b24f4c
+      projectPath: Library\Artifacts\42\4285d99b8419fb8d585e09b345b24f4c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\45\455403f90f2249cfaf4ac3da9d79a454
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\45\455403f90f2249cfaf4ac3da9d79a454
+      projectPath: Library\Artifacts\45\455403f90f2249cfaf4ac3da9d79a454
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\45\45cce0449a9bec9d5d913d62e5153a04
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\45\45cce0449a9bec9d5d913d62e5153a04
+      projectPath: Library\Artifacts\45\45cce0449a9bec9d5d913d62e5153a04
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\48\4858fbd22a93243d0705f829b4d2ff00
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\48\4858fbd22a93243d0705f829b4d2ff00
+      projectPath: Library\Artifacts\48\4858fbd22a93243d0705f829b4d2ff00
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\4f\4f7b9a2147ae3cbdbd6857f10b6dab18
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\4f\4f7b9a2147ae3cbdbd6857f10b6dab18
+      projectPath: Library\Artifacts\4f\4f7b9a2147ae3cbdbd6857f10b6dab18
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\53\53cf31043ffb91608a584bcd839365b7
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\53\53cf31043ffb91608a584bcd839365b7
+      projectPath: Library\Artifacts\53\53cf31043ffb91608a584bcd839365b7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\54\54837bd774a4f671124ea673c09c600b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\54\54837bd774a4f671124ea673c09c600b
+      projectPath: Library\Artifacts\54\54837bd774a4f671124ea673c09c600b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\55\554618ca1ec897882384bc0ae7a59a07
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\55\554618ca1ec897882384bc0ae7a59a07
+      projectPath: Library\Artifacts\55\554618ca1ec897882384bc0ae7a59a07
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\56\5684e44915fa77e6f3a55d549642078a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\56\5684e44915fa77e6f3a55d549642078a
+      projectPath: Library\Artifacts\56\5684e44915fa77e6f3a55d549642078a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\58\58126f8e02cb8ace05867966be1f232a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\58\58126f8e02cb8ace05867966be1f232a
+      projectPath: Library\Artifacts\58\58126f8e02cb8ace05867966be1f232a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\59\59ec59bf19649a8b9351a65b08b02d9d
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\59\59ec59bf19649a8b9351a65b08b02d9d
+      projectPath: Library\Artifacts\59\59ec59bf19649a8b9351a65b08b02d9d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\5e\5e500aa2bc1ef48f4bbd2e5d1a438de6
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\5e\5e500aa2bc1ef48f4bbd2e5d1a438de6
+      projectPath: Library\Artifacts\5e\5e500aa2bc1ef48f4bbd2e5d1a438de6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\61\6144d840d5d66b2a9e414b4d38fa4133
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\61\6144d840d5d66b2a9e414b4d38fa4133
+      projectPath: Library\Artifacts\61\6144d840d5d66b2a9e414b4d38fa4133
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\62\62cff8f5061c6f5bebeb6026a659defb
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\62\62cff8f5061c6f5bebeb6026a659defb
+      projectPath: Library\Artifacts\62\62cff8f5061c6f5bebeb6026a659defb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\64\643ca261d26f14ffbea0d3890c5340b4
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\64\643ca261d26f14ffbea0d3890c5340b4
+      projectPath: Library\Artifacts\64\643ca261d26f14ffbea0d3890c5340b4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\64\64f1499bf644ce66b95d2fdc143e0c79
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\64\64f1499bf644ce66b95d2fdc143e0c79
+      projectPath: Library\Artifacts\64\64f1499bf644ce66b95d2fdc143e0c79
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\67\678f9cdfed5c44f1144883eb7cb15cfa
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\67\678f9cdfed5c44f1144883eb7cb15cfa
+      projectPath: Library\Artifacts\67\678f9cdfed5c44f1144883eb7cb15cfa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\68\68cc6930eedac48df6192df64b3f8ddb
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\68\68cc6930eedac48df6192df64b3f8ddb
+      projectPath: Library\Artifacts\68\68cc6930eedac48df6192df64b3f8ddb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\6a\6a10c768dbb76aa00471bce864d7e616
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\6a\6a10c768dbb76aa00471bce864d7e616
+      projectPath: Library\Artifacts\6a\6a10c768dbb76aa00471bce864d7e616
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\6a\6af38e606630317012d372b858d1eb51
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\6a\6af38e606630317012d372b858d1eb51
+      projectPath: Library\Artifacts\6a\6af38e606630317012d372b858d1eb51
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\6d\6d6cb93ab91d37d7eb7dd4fd048fd71f
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\6d\6d6cb93ab91d37d7eb7dd4fd048fd71f
+      projectPath: Library\Artifacts\6d\6d6cb93ab91d37d7eb7dd4fd048fd71f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\6f\6fe1760854c3a7c5319b579a99e8c3a3
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\6f\6fe1760854c3a7c5319b579a99e8c3a3
+      projectPath: Library\Artifacts\6f\6fe1760854c3a7c5319b579a99e8c3a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\72\72b047d1613ac616f3a9ff3f4396d4b4
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\72\72b047d1613ac616f3a9ff3f4396d4b4
+      projectPath: Library\Artifacts\72\72b047d1613ac616f3a9ff3f4396d4b4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\76\76e35398b11d96a26308426fa17ac0ca
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\76\76e35398b11d96a26308426fa17ac0ca
+      projectPath: Library\Artifacts\76\76e35398b11d96a26308426fa17ac0ca
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\78\785732a2516992eb7f85cdb10fc66cdb
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\78\785732a2516992eb7f85cdb10fc66cdb
+      projectPath: Library\Artifacts\78\785732a2516992eb7f85cdb10fc66cdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\78\78cf76c48b1a311dd8dc24d5956a24a9
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\78\78cf76c48b1a311dd8dc24d5956a24a9
+      projectPath: Library\Artifacts\78\78cf76c48b1a311dd8dc24d5956a24a9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\7e\7e5680fc1fe0a3aa13ac187d5ac2b964
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\7e\7e5680fc1fe0a3aa13ac187d5ac2b964
+      projectPath: Library\Artifacts\7e\7e5680fc1fe0a3aa13ac187d5ac2b964
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\80\8005b3ac4c134a7ee80ee0d8ccd6abff
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\80\8005b3ac4c134a7ee80ee0d8ccd6abff
+      projectPath: Library\Artifacts\80\8005b3ac4c134a7ee80ee0d8ccd6abff
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\83\837f4ae0e7088cb657c8ea85601667da
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\83\837f4ae0e7088cb657c8ea85601667da
+      projectPath: Library\Artifacts\83\837f4ae0e7088cb657c8ea85601667da
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\83\8398621498ab5bb07d7d088ec578262f
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\83\8398621498ab5bb07d7d088ec578262f
+      projectPath: Library\Artifacts\83\8398621498ab5bb07d7d088ec578262f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\83\839cc586a7535b5a204478b6dc8725cd
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\83\839cc586a7535b5a204478b6dc8725cd
+      projectPath: Library\Artifacts\83\839cc586a7535b5a204478b6dc8725cd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\86\86f4f01e160ccc91ea9e1d5e5b180721
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\86\86f4f01e160ccc91ea9e1d5e5b180721
+      projectPath: Library\Artifacts\86\86f4f01e160ccc91ea9e1d5e5b180721
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\87\875458b389892cc45cba107180cc8bec
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\87\875458b389892cc45cba107180cc8bec
+      projectPath: Library\Artifacts\87\875458b389892cc45cba107180cc8bec
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\87\87aa08ceb85d6fb62d22b3ca858aba00
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\87\87aa08ceb85d6fb62d22b3ca858aba00
+      projectPath: Library\Artifacts\87\87aa08ceb85d6fb62d22b3ca858aba00
+      originalPath: Asteroids\Library\Artifacts\3b\3b38a56a7761befdddc8b9ba4a89f7c0
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\8a\8ad0b2f846c1d205405a93543956de91
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\8a\8ad0b2f846c1d205405a93543956de91
+      projectPath: Library\Artifacts\8a\8ad0b2f846c1d205405a93543956de91
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\8b\8b7ce2e4a64fbd41651a295186063d51
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\8b\8b7ce2e4a64fbd41651a295186063d51
+      projectPath: Library\Artifacts\8b\8b7ce2e4a64fbd41651a295186063d51
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\8f\8faf238828a161b30ab68ac33bb9506b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\8f\8faf238828a161b30ab68ac33bb9506b
+      projectPath: Library\Artifacts\8f\8faf238828a161b30ab68ac33bb9506b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\90\90bbd27ccdaf6d19257ecb9b19966f2c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\90\90bbd27ccdaf6d19257ecb9b19966f2c
+      projectPath: Library\Artifacts\90\90bbd27ccdaf6d19257ecb9b19966f2c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\91\917a76927a6775422048433b68eb6ac5
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\91\917a76927a6775422048433b68eb6ac5
+      projectPath: Library\Artifacts\91\917a76927a6775422048433b68eb6ac5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\92\920f77e0426c1f9ae28e3c9fd7d9d284
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\92\920f77e0426c1f9ae28e3c9fd7d9d284
+      projectPath: Library\Artifacts\92\920f77e0426c1f9ae28e3c9fd7d9d284
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\98\98be4b743c5dd2e4affa8f8188075433
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\98\98be4b743c5dd2e4affa8f8188075433
+      projectPath: Library\Artifacts\98\98be4b743c5dd2e4affa8f8188075433
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\98\98bfdd77ea46189f876f9cfbb64e91e7
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\98\98bfdd77ea46189f876f9cfbb64e91e7
+      projectPath: Library\Artifacts\98\98bfdd77ea46189f876f9cfbb64e91e7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\99\994d3b73a1fdb858c701053cdef597de
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\99\994d3b73a1fdb858c701053cdef597de
+      projectPath: Library\Artifacts\99\994d3b73a1fdb858c701053cdef597de
+      originalPath: Asteroids\Library\Artifacts\c0\c0078d79ac83dc6f7048bf292f64208c
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\9e\9e350b0f0cdab672482f2b2f2f57e293
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\9e\9e350b0f0cdab672482f2b2f2f57e293
+      projectPath: Library\Artifacts\9e\9e350b0f0cdab672482f2b2f2f57e293
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a0\a008ad0ad7740d1f0bdc211aa077b822
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a0\a008ad0ad7740d1f0bdc211aa077b822
+      projectPath: Library\Artifacts\a0\a008ad0ad7740d1f0bdc211aa077b822
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a1\a13339b8b519cda2096242159f0b7c30
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a1\a13339b8b519cda2096242159f0b7c30
+      projectPath: Library\Artifacts\a1\a13339b8b519cda2096242159f0b7c30
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a2\a256bdeafc884eec906594d4a28c96f3
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a2\a256bdeafc884eec906594d4a28c96f3
+      projectPath: Library\Artifacts\a2\a256bdeafc884eec906594d4a28c96f3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a3\a3f513429e02ea37ca795c30750e851b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a3\a3f513429e02ea37ca795c30750e851b
+      projectPath: Library\Artifacts\a3\a3f513429e02ea37ca795c30750e851b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a4\a406111e183ed1afaf0874820c186f9a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a4\a406111e183ed1afaf0874820c186f9a
+      projectPath: Library\Artifacts\a4\a406111e183ed1afaf0874820c186f9a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a4\a46916b3d7996fec58e53ef6e842561d
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a4\a46916b3d7996fec58e53ef6e842561d
+      projectPath: Library\Artifacts\a4\a46916b3d7996fec58e53ef6e842561d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a6\a689438869258b0afb786099b17a7313
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a6\a689438869258b0afb786099b17a7313
+      projectPath: Library\Artifacts\a6\a689438869258b0afb786099b17a7313
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\a8\a8a0a8961391eca8664b27808e6f0e23
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\a8\a8a0a8961391eca8664b27808e6f0e23
+      projectPath: Library\Artifacts\a8\a8a0a8961391eca8664b27808e6f0e23
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ad\ad4f4fae5d2f623457dd7e3110659dcc
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ad\ad4f4fae5d2f623457dd7e3110659dcc
+      projectPath: Library\Artifacts\ad\ad4f4fae5d2f623457dd7e3110659dcc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\b3\b367130c09b1211563c3ae9c8c7ae0db
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\b3\b367130c09b1211563c3ae9c8c7ae0db
+      projectPath: Library\Artifacts\b3\b367130c09b1211563c3ae9c8c7ae0db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\b4\b433c80873727031ab01685119545cb4
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\b4\b433c80873727031ab01685119545cb4
+      projectPath: Library\Artifacts\b4\b433c80873727031ab01685119545cb4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\b4\b4b0cd5e02df34e24a76e3ebc5661582
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\b4\b4b0cd5e02df34e24a76e3ebc5661582
+      projectPath: Library\Artifacts\b4\b4b0cd5e02df34e24a76e3ebc5661582
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\b7\b7736fcf42d21a958f5d4cb1ac30798c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\b7\b7736fcf42d21a958f5d4cb1ac30798c
+      projectPath: Library\Artifacts\b7\b7736fcf42d21a958f5d4cb1ac30798c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ba\ba0ef1bf2143da0c219ac7081138acd8
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ba\ba0ef1bf2143da0c219ac7081138acd8
+      projectPath: Library\Artifacts\ba\ba0ef1bf2143da0c219ac7081138acd8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\bb\bb13767ab762ccddb87f8fd7cd3dd25a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\bb\bb13767ab762ccddb87f8fd7cd3dd25a
+      projectPath: Library\Artifacts\bb\bb13767ab762ccddb87f8fd7cd3dd25a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\bd\bdcb612ab89b0c61e55c2f8c1afcbf6c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\bd\bdcb612ab89b0c61e55c2f8c1afcbf6c
+      projectPath: Library\Artifacts\bd\bdcb612ab89b0c61e55c2f8c1afcbf6c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\be\beae0106f13d0cc388ccd72cac1e04da
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\be\beae0106f13d0cc388ccd72cac1e04da
+      projectPath: Library\Artifacts\be\beae0106f13d0cc388ccd72cac1e04da
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\bf\bf3eeff265a9438d4fc8402505c88d0b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\bf\bf3eeff265a9438d4fc8402505c88d0b
+      projectPath: Library\Artifacts\bf\bf3eeff265a9438d4fc8402505c88d0b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c0\c0a7f5d54f7c47994972cd6815ec05ce
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c0\c0a7f5d54f7c47994972cd6815ec05ce
+      projectPath: Library\Artifacts\c0\c0a7f5d54f7c47994972cd6815ec05ce
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c3\c31f813b7de7b5af052586a1ffa29711
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c3\c31f813b7de7b5af052586a1ffa29711
+      projectPath: Library\Artifacts\c3\c31f813b7de7b5af052586a1ffa29711
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c3\c35a1b7710380eac3ffd8d204ebfb717
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c3\c35a1b7710380eac3ffd8d204ebfb717
+      projectPath: Library\Artifacts\c3\c35a1b7710380eac3ffd8d204ebfb717
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c5\c539e11391fe95984af6ce4cb136851b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c5\c539e11391fe95984af6ce4cb136851b
+      projectPath: Library\Artifacts\c5\c539e11391fe95984af6ce4cb136851b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c5\c57613a56f34f16a2cfef44a1ffbe815
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c5\c57613a56f34f16a2cfef44a1ffbe815
+      projectPath: Library\Artifacts\c5\c57613a56f34f16a2cfef44a1ffbe815
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c6\c6124afabb1c30bad5104a99e8bfda4a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c6\c6124afabb1c30bad5104a99e8bfda4a
+      projectPath: Library\Artifacts\c6\c6124afabb1c30bad5104a99e8bfda4a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\c8\c8e771ac0f5166fe22d4a8ccf738b03e
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\c8\c8e771ac0f5166fe22d4a8ccf738b03e
+      projectPath: Library\Artifacts\c8\c8e771ac0f5166fe22d4a8ccf738b03e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ca\cae9e72532bc5f1d74c2725706e03776
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ca\cae9e72532bc5f1d74c2725706e03776
+      projectPath: Library\Artifacts\ca\cae9e72532bc5f1d74c2725706e03776
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\cb\cb55724a4368bcf8b996f57f15759911
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\cb\cb55724a4368bcf8b996f57f15759911
+      projectPath: Library\Artifacts\cb\cb55724a4368bcf8b996f57f15759911
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\cd\cd820cb7e44cc00fce426acf0d378f5c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\cd\cd820cb7e44cc00fce426acf0d378f5c
+      projectPath: Library\Artifacts\cd\cd820cb7e44cc00fce426acf0d378f5c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\cf\cfac501ee2e1caeffc1012a988c0b70c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\cf\cfac501ee2e1caeffc1012a988c0b70c
+      projectPath: Library\Artifacts\cf\cfac501ee2e1caeffc1012a988c0b70c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d0\d0ff29f8589af7aaeda315ba46b015f4
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d0\d0ff29f8589af7aaeda315ba46b015f4
+      projectPath: Library\Artifacts\d0\d0ff29f8589af7aaeda315ba46b015f4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d2\d2b5d84ce1dc5a9db54bfaa99d95382b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d2\d2b5d84ce1dc5a9db54bfaa99d95382b
+      projectPath: Library\Artifacts\d2\d2b5d84ce1dc5a9db54bfaa99d95382b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d3\d3ec1805433a946261d819b6cf92f8e0
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d3\d3ec1805433a946261d819b6cf92f8e0
+      projectPath: Library\Artifacts\d3\d3ec1805433a946261d819b6cf92f8e0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d4\d4518a92a3d4b54a469fe4f6d158676e
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d4\d4518a92a3d4b54a469fe4f6d158676e
+      projectPath: Library\Artifacts\d4\d4518a92a3d4b54a469fe4f6d158676e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d4\d475230ada7a4840f7e3ddf46aa52ed9
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d4\d475230ada7a4840f7e3ddf46aa52ed9
+      projectPath: Library\Artifacts\d4\d475230ada7a4840f7e3ddf46aa52ed9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\d8\d8614ae22cb758eb935fdff4c25cf4fa
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\d8\d8614ae22cb758eb935fdff4c25cf4fa
+      projectPath: Library\Artifacts\d8\d8614ae22cb758eb935fdff4c25cf4fa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\da\da38368dca9d8d356a882d9292a5573e
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\da\da38368dca9d8d356a882d9292a5573e
+      projectPath: Library\Artifacts\da\da38368dca9d8d356a882d9292a5573e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\da\da581785667113f0d596e23960df1f73
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\da\da581785667113f0d596e23960df1f73
+      projectPath: Library\Artifacts\da\da581785667113f0d596e23960df1f73
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\dd\dd1e945fd5cad738f62b64ea3cc1d232
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\dd\dd1e945fd5cad738f62b64ea3cc1d232
+      projectPath: Library\Artifacts\dd\dd1e945fd5cad738f62b64ea3cc1d232
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\e1\e1755c4a58f99c78906b101ca685477d
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\e1\e1755c4a58f99c78906b101ca685477d
+      projectPath: Library\Artifacts\e1\e1755c4a58f99c78906b101ca685477d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\e3\e369e1eb252c063041b82f1d1e502ddc
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\e3\e369e1eb252c063041b82f1d1e502ddc
+      projectPath: Library\Artifacts\e3\e369e1eb252c063041b82f1d1e502ddc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\e4\e40bffc924d41924bf9fc3a7c4f38680
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\e4\e40bffc924d41924bf9fc3a7c4f38680
+      projectPath: Library\Artifacts\e4\e40bffc924d41924bf9fc3a7c4f38680
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\e4\e485ca432f3eea9b33e0610c0f1eb17b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\e4\e485ca432f3eea9b33e0610c0f1eb17b
+      projectPath: Library\Artifacts\e4\e485ca432f3eea9b33e0610c0f1eb17b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\e5\e5aa5a718faf3023d236a51c4fb26b01
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\e5\e5aa5a718faf3023d236a51c4fb26b01
+      projectPath: Library\Artifacts\e5\e5aa5a718faf3023d236a51c4fb26b01
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ea\ea4ce7fbff090047064c2d6e9b46a945
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ea\ea4ce7fbff090047064c2d6e9b46a945
+      projectPath: Library\Artifacts\ea\ea4ce7fbff090047064c2d6e9b46a945
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ea\eaf9becdaddca57fdab61759995a83f2
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ea\eaf9becdaddca57fdab61759995a83f2
+      projectPath: Library\Artifacts\ea\eaf9becdaddca57fdab61759995a83f2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\eb\eb2e6aa520afff705936c320c3730718
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\eb\eb2e6aa520afff705936c320c3730718
+      projectPath: Library\Artifacts\eb\eb2e6aa520afff705936c320c3730718
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ee\ee681b074d028f0a00c75d4112da5e4e
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ee\ee681b074d028f0a00c75d4112da5e4e
+      projectPath: Library\Artifacts\ee\ee681b074d028f0a00c75d4112da5e4e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f2\f27d9b0235e42899364dc22f8f9f258a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f2\f27d9b0235e42899364dc22f8f9f258a
+      projectPath: Library\Artifacts\f2\f27d9b0235e42899364dc22f8f9f258a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f2\f2ea1f17726f15713d348093258c75ad
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f2\f2ea1f17726f15713d348093258c75ad
+      projectPath: Library\Artifacts\f2\f2ea1f17726f15713d348093258c75ad
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f2\f2f3aa0f426b702a9e08d270e2099246
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f2\f2f3aa0f426b702a9e08d270e2099246
+      projectPath: Library\Artifacts\f2\f2f3aa0f426b702a9e08d270e2099246
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f3\f31e7d8fc4f445d1596a76f6af933956
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f3\f31e7d8fc4f445d1596a76f6af933956
+      projectPath: Library\Artifacts\f3\f31e7d8fc4f445d1596a76f6af933956
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f4\f4d8fe278d69e7422a2e9af425e5f009
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f4\f4d8fe278d69e7422a2e9af425e5f009
+      projectPath: Library\Artifacts\f4\f4d8fe278d69e7422a2e9af425e5f009
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f5\f5263b2e1f4ec2acd55a737f7be110ff
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f5\f5263b2e1f4ec2acd55a737f7be110ff
+      projectPath: Library\Artifacts\f5\f5263b2e1f4ec2acd55a737f7be110ff
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f6\f6b953a6b2a34a5f46cf1024b6b7f85b
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f6\f6b953a6b2a34a5f46cf1024b6b7f85b
+      projectPath: Library\Artifacts\f6\f6b953a6b2a34a5f46cf1024b6b7f85b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f7\f76b2d9cbec0f5f5502872385fa7e813
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f7\f76b2d9cbec0f5f5502872385fa7e813
+      projectPath: Library\Artifacts\f7\f76b2d9cbec0f5f5502872385fa7e813
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\f9\f9e6574ef9d275e547f65296df875ae2
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\f9\f9e6574ef9d275e547f65296df875ae2
+      projectPath: Library\Artifacts\f9\f9e6574ef9d275e547f65296df875ae2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\fa\fae410b8ad188c9bf55938c94f5e9bf9
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\fa\fae410b8ad188c9bf55938c94f5e9bf9
+      projectPath: Library\Artifacts\fa\fae410b8ad188c9bf55938c94f5e9bf9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\fd\fd2190d5a568d7a1994ec9eb7d8f7d0a
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\fd\fd2190d5a568d7a1994ec9eb7d8f7d0a
+      projectPath: Library\Artifacts\fd\fd2190d5a568d7a1994ec9eb7d8f7d0a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\Artifacts\ff\ff16d78ba2305ab1453e6b98849aec8c
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\Artifacts\ff\ff16d78ba2305ab1453e6b98849aec8c
+      projectPath: Library\Artifacts\ff\ff16d78ba2305ab1453e6b98849aec8c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\SceneVisibilityState.asset
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\ShaderCache\0\007746e52c3ae667356945adb1632603.bin
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ShaderCache\0\007746e52c3ae667356945adb1632603.bin
+      projectPath: Library\ShaderCache\0\007746e52c3ae667356945adb1632603.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\ShaderCache\4\48d8ea44ae44c7c4b5ac46340275456d.bin
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ShaderCache\4\48d8ea44ae44c7c4b5ac46340275456d.bin
+      projectPath: Library\ShaderCache\4\48d8ea44ae44c7c4b5ac46340275456d.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\ShaderCache\8\8e8f557ac91204af2019bcfc0f147661.bin
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ShaderCache\8\8e8f557ac91204af2019bcfc0f147661.bin
+      projectPath: Library\ShaderCache\8\8e8f557ac91204af2019bcfc0f147661.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\ShaderCache\f\ffcbc47fb5e63b050c46cf2c430a4b50.bin
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\ShaderCache\f\ffcbc47fb5e63b050c46cf2c430a4b50.bin
+      projectPath: Library\ShaderCache\f\ffcbc47fb5e63b050c46cf2c430a4b50.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\SourceAssetDB
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\StateCache\PrefabStageHierarchy\71\71466c679c4d4a0a91124f0df501bb61.json
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\StateCache\PrefabStageHierarchy\71\71466c679c4d4a0a91124f0df501bb61.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\71\71466c679c4d4a0a91124f0df501bb61.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\StateCache\SceneView\35\35fbe2a60dd63c9a8e90e3b3aad9ae8c.json
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\StateCache\SceneView\35\35fbe2a60dd63c9a8e90e3b3aad9ae8c.json
+      projectPath: Library\StateCache\SceneView\35\35fbe2a60dd63c9a8e90e3b3aad9ae8c.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\StateCache\SceneView\bf\bfad0af2506b57392fa698147a8bd538.json
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\StateCache\SceneView\bf\bfad0af2506b57392fa698147a8bd538.json
+      projectPath: Library\StateCache\SceneView\bf\bfad0af2506b57392fa698147a8bd538.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\expandedItems
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Logs\AssetImportWorker0.log
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 08f67c161c067d91e64fd8449529e44e56c8c69d
+    mergeA: 
+    mergeB: 
+    authorName: Dania Alaaeldin
+    authorEmail: d.a.mahdaly@outlook.com
+    commitEmail: d.a.mahdaly@outlook.com
+    commitName: Dania Alaaeldin
+    summary: Added base bullet mechanics
+    description: 
+    timeString: 2021-12-26T00:48:24.000+02:00
+    commitTimeString: 2021-12-26T00:48:24.000+02:00
+    changes:
+    - path: Asteroids\Assets\Prefabs.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Prefabs\Bullet.prefab
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Prefabs\Bullet.prefab.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Prefabs\Bullet.prefab.meta
+      projectPath: Assets\Prefabs\Bullet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\Bullet.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\BulletController.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\BulletController.cs
+      projectPath: Assets\Scripts\BulletController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\BulletController.cs.meta
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\BulletController.cs.meta
+      projectPath: Assets\Scripts\BulletController.cs.meta
+      originalPath: Asteroids\Assets\Scripts\Bullet.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Asteroids\Assets\Scripts\GameController.cs
+      fullPath: C:\Users\dido-\Desktop\Asteroids\Asteroids\Asteroids\Assets\Scripts\GameController.cs
+      projectPath: Assets\Scripts\GameController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 48c357627dfc6af42fcc8e4e739d3752010916fc
     mergeA: 
     mergeB: 

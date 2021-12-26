@@ -22,11 +22,38 @@ public class AsteroidController : MonoBehaviour
     {
         assignSize(Random.Range(1, 4));
 
-        double directionX = Random.Range(-1, 1);
-        double directionY = Random.Range(-1, 1);
-        direction = new Vector2((float)directionX, (float)directionY).normalized;
-
+        float screenHeight = Camera.main.orthographicSize * 2, screenWidth = screenHeight * Camera.main.aspect;
+        transform.position = Random.insideUnitCircle.normalized * Mathf.Max(screenHeight, screenWidth);
+        
+        setDirection();
         rigidBody.AddForce(direction * speed);
+    }
+
+    private void setDirection()
+    {
+        int minValX = -1, maxValX = 1;
+        int minValY = -1, maxValY = 1;
+
+        if (transform.position.x > GameController.instance.player.transform.position.x)
+        {
+            maxValX = 0;
+        }
+        else
+        {
+            minValX = 0;
+        }
+        if (transform.position.y > GameController.instance.player.transform.position.y)
+        {
+            maxValY = 0;
+        }
+        else
+        {
+            minValY = 0;
+        }
+
+        double directionX = Random.Range(minValX, maxValX);
+        double directionY = Random.Range(minValY, maxValY);
+        direction = new Vector2((float)directionX, (float)directionY).normalized;
     }
 
     public void updateAsteroid(int type, Vector2 direction)
