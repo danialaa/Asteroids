@@ -6,10 +6,10 @@ using UnityEngine;
 public class AsteroidController : MonoBehaviour
 {
     public int speed;
+    public AsteroidType type;
 
     private BoxCollider2D boxCollider;
     private Rigidbody2D rigidBody;
-    private AsteroidType type;
     private Vector2 direction;
 
     private void Awake()

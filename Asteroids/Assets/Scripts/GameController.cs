@@ -2,6 +2,7 @@ using Assets.Scripts;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -10,8 +11,13 @@ public class GameController : MonoBehaviour
     public Ship player;
     public GameObject bulletObject;
     public GameObject asteroidObject;
+    public GameObject scoreObject, livesObject;
     public int asteroidSpawnRate;
     public int lifetime;
+    public int maxLives;
+
+    private int score;
+    private int lives;
 
     void Start()
     {
@@ -25,6 +31,8 @@ public class GameController : MonoBehaviour
         }
 
         InvokeRepeating("generateAsteroid", 2f, asteroidSpawnRate);
+        lives = maxLives;
+        livesObject.GetComponent<Text>().text = lives + "";
     }
 
     void Update()
@@ -69,5 +77,56 @@ public class GameController : MonoBehaviour
         {
             player.moveShip();
         }
+    }
+
+    public void takeDamage()
+    {
+        lives--;
+        livesObject.GetComponent<Text>().text = lives + "";
+
+        if (lives < 0)
+        {
+            respawn(true);
+        }
+        else
+        {
+            respawn(false);
+        }
+    }
+
+    private void respawn(bool isFullRestart)
+    {
+        if (isFullRestart)
+        {
+            lives = maxLives;
+            score = 0;
+
+            livesObject.GetComponent<Text>().text = lives + "";
+            scoreObject.GetComponent<Text>().text = score + "";
+            player.transform.eulerAngles = Vector3.zero;
+        }
+
+        GameObject[] asteroids = GameObject.FindGameObjectsWithTag("Asteroid");
+        GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+
+        for (int i = 0; i < asteroids.Length; i++)
+        {
+            Destroy(asteroids[i].gameObject);
+        }
+        for (int i = 0; i < bullets.Length; i++)
+        {
+            Destroy(bullets[i].gameObject);
+        }
+    }
+
+    public void increaseScore(int amount)
+    {
+        score += amount;
+        scoreObject.GetComponent<Text>().text = score + "";
+    }
+
+    private IEnumerator pauseGame()
+    {
+        yield return new WaitForSeconds(3);
     }
 }
