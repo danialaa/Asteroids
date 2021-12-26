@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 656417387}
   m_Layer: 0
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,6 +378,7 @@ MonoBehaviour:
   bulletObject: {fileID: 7868064293468396225, guid: b1f69cd353b9eb246b71150220eb28bc, type: 3}
   asteroidObject: {fileID: 1095486863657832207, guid: ce13e844e7877dd49877c40ac3e073fb, type: 3}
   asteroidSpawnRate: 2
+  lifetime: 50
 --- !u!4 &2133641425
 Transform:
   m_ObjectHideFlags: 0

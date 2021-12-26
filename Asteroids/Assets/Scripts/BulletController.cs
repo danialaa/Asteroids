@@ -7,15 +7,27 @@ public class BulletController : MonoBehaviour
     public float speed;
     public CapsuleCollider2D capsuleCollider;
 
-    public void shootBullet()
-    {
-        Vector2 newPosition = transform.up * speed * Time.deltaTime;
+    private Rigidbody2D rigidBody;
 
-        transform.position += new Vector3(newPosition.x, newPosition.y, 0);
+    private void Awake()
+    {
+        rigidBody = GetComponent<Rigidbody2D>();
+        Destroy(gameObject, GameController.instance.lifetime);
+
+        rigidBody.AddForce(transform.up * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //gameObject.SetActive(false);
+        if (collision.gameObject.tag == "Asteroid")
+        {
+            //add score
+        }
+        else if (collision.gameObject.tag == "Player")
+        {
+            //remove life
+        }    
+
+        Destroy(gameObject);
     }
 }

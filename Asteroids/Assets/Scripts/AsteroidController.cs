@@ -5,17 +5,19 @@ using UnityEngine;
 
 public class AsteroidController : MonoBehaviour
 {
-    public CircleCollider2D circleCollider;
     public int speed;
 
+    private BoxCollider2D boxCollider;
     private Rigidbody2D rigidBody;
     private AsteroidType type;
     private Vector2 direction;
 
-    private void Start()
+    private void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
         createRandomAsteroid();
+        Destroy(gameObject, GameController.instance.lifetime);
     }
 
     private void createRandomAsteroid()
@@ -23,7 +25,8 @@ public class AsteroidController : MonoBehaviour
         assignSize(Random.Range(1, 4));
 
         float screenHeight = Camera.main.orthographicSize * 2, screenWidth = screenHeight * Camera.main.aspect;
-        transform.position = Random.insideUnitCircle.normalized * Mathf.Max(screenHeight, screenWidth);
+        Vector2 randomPosition = Random.insideUnitCircle.normalized;
+        transform.position = new Vector3(randomPosition.x * screenWidth, randomPosition.y * screenHeight, 1);
         
         setDirection();
         rigidBody.AddForce(direction * speed);
@@ -56,9 +59,11 @@ public class AsteroidController : MonoBehaviour
         direction = new Vector2((float)directionX, (float)directionY).normalized;
     }
 
-    public void updateAsteroid(int type, Vector2 direction)
+    public void updateAsteroid(int type, Vector2 position, Vector2 direction)
     {
         assignSize(type);
+        transform.position = position;
+        this.direction = direction;
         rigidBody.AddForce(direction * speed);
     }
 
@@ -69,17 +74,16 @@ public class AsteroidController : MonoBehaviour
         rigidBody.mass = size;
     }
 
-    public void destroyAsteroid()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if((int)type > 1)
+        if ((int)type > 1)
         {
             GameObject newAsteroid = GameController.instance.generateAsteroid();
-            newAsteroid.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, direction);
+            newAsteroid.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, transform.position, direction);
             GameObject newAsteroid2 = GameController.instance.generateAsteroid();
-            newAsteroid2.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, direction);
+            newAsteroid2.GetComponent<AsteroidController>().updateAsteroid((int)type - 1, transform.position, direction);
         }
 
-        GameController.instance.removeAsteroid(gameObject);
         Destroy(gameObject);
     }
 }

@@ -11,9 +11,7 @@ public class GameController : MonoBehaviour
     public GameObject bulletObject;
     public GameObject asteroidObject;
     public int asteroidSpawnRate;
-    
-    private List<GameObject> asteroids = new List<GameObject>();
-    private List<GameObject> bullets = new List<GameObject>();
+    public int lifetime;
 
     void Start()
     {
@@ -34,23 +32,13 @@ public class GameController : MonoBehaviour
         moveShip();
         directShip();
         shoot();
-        moveBullets();
     }
 
     public GameObject generateAsteroid()
     {
         GameObject newAsteroid = Instantiate(asteroidObject, asteroidObject.transform.position, Quaternion.identity);
-        asteroids.Add(newAsteroid);
 
         return newAsteroid;
-    }
-
-    private void moveBullets()
-    {
-        for (int i = 0; i < bullets.Count; i++)
-        {
-            bullets[i].GetComponent<BulletController>().shootBullet();
-        }
     }
 
     private void directShip()
@@ -71,7 +59,6 @@ public class GameController : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bulletObject, player.transform.position, Quaternion.identity);
             newBullet.transform.up = player.transform.up;
-            bullets.Add(newBullet);
         }
     }
 
@@ -81,10 +68,5 @@ public class GameController : MonoBehaviour
         {
             player.moveShip();
         }
-    }
-
-    public void removeAsteroid(GameObject asteroid)
-    {
-        asteroids.Remove(asteroid);
     }
 }
