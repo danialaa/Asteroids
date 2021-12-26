@@ -85,6 +85,7 @@ public class AsteroidController : MonoBehaviour
                 splitAsteroid(collision.transform.up);
             }
 
+            GameController.instance.destroyAsteroid(transform.position);
             Destroy(gameObject);
         }
     }

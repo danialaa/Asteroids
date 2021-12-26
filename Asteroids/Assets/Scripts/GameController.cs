@@ -15,7 +15,8 @@ public class GameController : MonoBehaviour
     public int asteroidSpawnRate;
     public int lifetime;
     public int maxLives;
-    public AudioSource shootSound, dieSound;
+    public ParticleSystem explosion;
+    public AudioSource shootSound, dieSound, hitSound;
 
     private int score;
     private int lives;
@@ -79,6 +80,18 @@ public class GameController : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             player.moveShip();
+
+            for (int i = 0; i < player.transform.childCount; i++)
+            {
+                player.transform.GetChild(i).gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < player.transform.childCount; i++)
+            {
+                player.transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
     }
 
@@ -96,6 +109,12 @@ public class GameController : MonoBehaviour
         {
             respawn(false);
         }
+    }
+
+    public void destroyAsteroid(Vector3 position)
+    {
+        explosion.transform.position = position;
+        explosion.Play();
     }
 
     private void respawn(bool isFullRestart)
@@ -127,6 +146,7 @@ public class GameController : MonoBehaviour
     {
         score += amount;
         scoreObject.GetComponent<Text>().text = score + "";
+        hitSound.PlayOneShot(hitSound.clip);
     }
 
     private IEnumerator pauseGame()
