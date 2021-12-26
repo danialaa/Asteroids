@@ -1,10 +1,12 @@
 # Asteroids
  This is a simple clone of the famous Asteroids
  <br/>
-##Architecture Overview:
+## Architecture Overview:  
+  
 ![Architecture Overview](https://user-images.githubusercontent.com/52839918/147419454-98c523ff-2f8d-42c1-bc50-0d91c8d956d6.png)
- <br/>
-##Variable changes: <br/>
+  
+  
+## Variable changes:  
  <br/>
 -Change asteroid movement speed by navigating to the asteroid prefab in the prefabs folder under Assets. <br/>
 -Change bullet speed in the bullet prefab under Assets. <br/>
