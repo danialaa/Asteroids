@@ -62,9 +62,6 @@ public class Ship : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        rigidBody.velocity = Vector2.zero;
-        rigidBody.angularVelocity = 0;
-        transform.position = Vector2.zero;
         isFixingX = isFixingY = false;
 
         GameController.instance.takeDamage();

@@ -34,6 +34,10 @@ public class BulletController : MonoBehaviour
         else if (collision.gameObject.tag == "Bullet")
         {
             Physics2D.IgnoreCollision(collision.collider, capsuleCollider);
-        }    
+        }
+        else if(collision.gameObject.tag == "Player")
+        {
+            GameController.instance.takeDamage();
+        }
     }
 }

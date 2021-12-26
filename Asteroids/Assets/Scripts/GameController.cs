@@ -44,6 +44,15 @@ public class GameController : MonoBehaviour
         moveShip();
         directShip();
         shoot();
+        exitGame();
+    }
+
+    private void exitGame()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public GameObject generateAsteroid()
@@ -99,6 +108,7 @@ public class GameController : MonoBehaviour
 
     public void takeDamage()
     {
+        resetPlayer();
         lives--;
         livesObject.GetComponent<Text>().text = lives + "";
         dieSound.PlayOneShot(dieSound.clip);
@@ -111,6 +121,13 @@ public class GameController : MonoBehaviour
         {
             respawn(false);
         }
+    }
+
+    private void resetPlayer()
+    {
+        player.rigidBody.velocity = Vector2.zero;
+        player.rigidBody.angularVelocity = 0;
+        player.transform.position = Vector2.zero;
     }
 
     public void destroyAsteroid(Vector3 position)
@@ -134,6 +151,7 @@ public class GameController : MonoBehaviour
 
         GameObject[] asteroids = GameObject.FindGameObjectsWithTag("Asteroid");
         GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+        explosion.Stop();
 
         for (int i = 0; i < asteroids.Length; i++)
         {
