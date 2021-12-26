@@ -1,6 +1,6 @@
 # Asteroids
  This is a simple clone of the famous Asteroids  
-To play: direct ship with left and right arrow, thrust with up arrow and shoot with space 
+To play: direct ship with left and right arrow, thrust with up arrow, shoot with space and exit with Esc!
  <br/>
 ## Architecture Overview:  
   
