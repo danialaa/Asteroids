@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     public Ship player;
     public GameObject bulletObject;
     public GameObject asteroidObject;
-    public GameObject scoreObject, livesObject;
+    public GameObject scoreObject, livesObject, highScoreObject;
     public int asteroidSpawnRate;
     public int lifetime;
     public int maxLives;
@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour
 
     private int score;
     private int lives;
+    private int currentHighScore;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour
             instance = this;
         }
 
+        updateHighScore();
         InvokeRepeating("generateAsteroid", 2f, asteroidSpawnRate);
         lives = maxLives;
         livesObject.GetComponent<Text>().text = lives + "";
@@ -121,6 +123,7 @@ public class GameController : MonoBehaviour
     {
         if (isFullRestart)
         {
+            updateHighScore();
             lives = maxLives;
             score = 0;
 
@@ -140,6 +143,22 @@ public class GameController : MonoBehaviour
         {
             Destroy(bullets[i].gameObject);
         }
+    }
+
+    private void updateHighScore()
+    {
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            currentHighScore = PlayerPrefs.GetInt("HighScore");
+        }
+        if(score > currentHighScore)
+        {
+            currentHighScore = score;
+        }
+
+        highScoreObject.GetComponent<Text>().text = currentHighScore + "";
+        PlayerPrefs.SetInt("HighScore", currentHighScore);
+        PlayerPrefs.Save();
     }
 
     public void increaseScore(int amount)
