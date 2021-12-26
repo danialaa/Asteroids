@@ -1,5 +1,6 @@
 # Asteroids
- This is a simple clone of the famous Asteroids
+ This is a simple clone of the famous Asteroids  
+To play: direct ship with left and right arrow, thrust with up arrow and shoot with space 
  <br/>
 ## Architecture Overview:  
   
